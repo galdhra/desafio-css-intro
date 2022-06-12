@@ -11,7 +11,7 @@
 *{
     font-family: "open-sans", sans-serif;
     box-sizing: border-box;
-    margin: 0%;
+    margin: 0;
     padding: 0%;
 }
 
@@ -24,15 +24,16 @@ a:hover {
 header{
     background-color: var(--color-red);
     height: 100px; 
+    max-width: 1200px;
     
 }
 
 .header-content{
     display: flex;
     justify-content: space-between;
-    padding: 40px 120px;
     color: var(--text-white);
     font-size: 18px;
+    padding: 40px 120px;
 }
 
 .insta {
@@ -46,4 +47,47 @@ header{
     padding: 0px 10px;
 }
 
+.container {
+    width: 100%;
+    display: flex;
+    padding: 40px 120px;
+    flex-direction: column; 
+    justify-content: center;
+      
+}
 
+.container h1{
+    color: var(--text-white);
+    font-size: 32px;
+    margin: 20px;
+}
+
+.container h2{
+    color: var(--text-black);
+    font-size: 20px;
+    margin: 10px 0px 20px 0px;
+}
+
+.container p{
+    color: var(--text-black);
+    font-size: 14px;
+    margin: 10px 0px 10px 0px;
+}
+
+#meet{
+    max-width: 1200px;
+    background-color: var(--color-blue);  
+}
+
+.card-fit{
+    background-color: var(--color-gray);
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px;  
+    align-items: center;
+    max-width: 960px; 
+}
+
+#courses{
+    
+}
